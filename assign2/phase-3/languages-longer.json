@@ -1,0 +1,217 @@
+{
+  "name": "Programming Languages",
+
+  "comment": "We will manually change the name of the filename that is opened in your script during the demo -- don't worry about having to write code that will select a particular JSON file for processing",
+  
+  "paradigms": [
+    "Procedural",
+    "Imperative",
+    "Object-Oriented",
+    "Functional",
+    "Symbolic",
+    "Lazy",
+    "Event-Driven",
+    "Prototype-Based",
+    "Systems",
+    "Logic",
+    "Declarative",
+    "Concurrent",
+    "Scripting",
+    "Metaprogramming"
+  ],
+
+  "languages": [
+    {
+      "name": "C",
+      "year": 1972,
+      "creator": "Dennis Ritchie",
+      "paradigm": ["Procedural", "Imperative"],
+      "influenced_by": ["B"],
+      "influences": ["Cplusplus", "Objective-C", "Go", "Rust"]
+    },
+    {
+      "name": "Cplusplus",
+      "year": 1985,
+      "creator": "Bjarne Stroustrup",
+      "paradigm": ["Procedural", "Object-Oriented"],
+      "influenced_by": ["C", "Simula"],
+      "influences": ["Java", "Csharp", "Rust"]
+    },
+    {
+      "name": "Rust",
+      "year": 2010,
+      "creator": "Graydon Hoare",
+      "paradigm": ["Systems", "Functional", "Imperative"],
+      "influenced_by": ["C", "Cplusplus"],
+      "influences": ["Zig"]
+    },
+    {
+      "name": "Lisp",
+      "year": 1958,
+      "creator": "John McCarthy",
+      "paradigm": ["Functional", "Symbolic"],
+      "influenced_by": ["Lambda Calculus"],
+      "influences": ["Scheme", "Common Lisp", "Clojure"]
+    },
+    {
+      "name": "Haskell",
+      "year": 1990,
+      "creator": "Committee",
+      "paradigm": ["Functional", "Lazy"],
+      "influenced_by": ["ML", "Lisp"],
+      "influences": ["Rust", "Elm", "PureScript"]
+    },
+    {
+      "name": "Scala",
+      "year": 2004,
+      "creator": "Martin Odersky",
+      "paradigm": ["Functional", "Object-Oriented"],
+      "influenced_by": ["Java", "Haskell"],
+      "influences": ["Kotlin"]
+    },
+    {
+      "name": "Python",
+      "year": 1991,
+      "creator": "Guido van Rossum",
+      "paradigm": ["Object-Oriented", "Imperative", "Functional"],
+      "influenced_by": ["ABC", "Modula-3"],
+      "influences": ["Julia", "Rust"]
+    },
+    {
+      "name": "JavaScript",
+      "year": 1995,
+      "creator": "Brendan Eich",
+      "paradigm": ["Event-Driven", "Functional", "Prototype-Based"],
+      "influenced_by": ["Scheme", "Self"],
+      "influences": ["TypeScript", "Node.js"]
+    },
+    {
+      "name": "Perl",
+      "year": 1987,
+      "creator": "Larry Wall",
+      "paradigm": ["Procedural", "Scripting"],
+      "influenced_by": ["C", "Shell"],
+      "influences": ["Python", "Ruby"]
+    },
+    {
+      "name": "Ruby",
+      "year": 1995,
+      "creator": "Yukihiro Matsumoto",
+      "paradigm": ["Object-Oriented", "Scripting"],
+      "influenced_by": ["Perl", "Smalltalk"],
+      "influences": []
+    },
+    {
+      "name": "Smalltalk",
+      "year": 1972,
+      "creator": "Alan Kay",
+      "paradigm": ["Object-Oriented"],
+      "influenced_by": ["Simula"],
+      "influences": ["Ruby", "Objective-C"]
+    },
+    {
+      "name": "Go",
+      "year": 2009,
+      "creator": "Robert Griesemer, Rob Pike, Ken Thompson",
+      "paradigm": ["Procedural", "Concurrent"],
+      "influenced_by": ["C"],
+      "influences": ["Zig", "Rust"]
+    },
+    {
+      "name": "TypeScript",
+      "year": 2012,
+      "creator": "Microsoft",
+      "paradigm": ["Object-Oriented", "Prototype-Based"],
+      "influenced_by": ["JavaScript"],
+      "influences": []
+    },
+    {
+      "name": "Csharp",
+      "year": 2000,
+      "creator": "Microsoft",
+      "paradigm": ["Object-Oriented", "Imperative"],
+      "influenced_by": ["Cplusplus", "Java"],
+      "influences": ["Fsharp"]
+    },
+    {
+      "name": "Fsharp",
+      "year": 2005,
+      "creator": "Don Syme",
+      "paradigm": ["Functional", "Object-Oriented"],
+      "influenced_by": ["OCaml"],
+      "influences": []
+    },
+    {
+      "name": "Swift",
+      "year": 2014,
+      "creator": "Chris Lattner",
+      "paradigm": ["Object-Oriented", "Functional"],
+      "influenced_by": ["Objective-C", "Rust"],
+      "influences": []
+    },
+    {
+      "name": "Kotlin",
+      "year": 2011,
+      "creator": "JetBrains",
+      "paradigm": ["Object-Oriented", "Functional"],
+      "influenced_by": ["Scala", "Java"],
+      "influences": []
+    },
+    {
+      "name": "Elm",
+      "year": 2012,
+      "creator": "Evan Czaplicki",
+      "paradigm": ["Functional", "Reactive"],
+      "influenced_by": ["Haskell"],
+      "influences": []
+    },
+    {
+      "name": "Prolog",
+      "year": 1972,
+      "creator": "Alain Colmerauer",
+      "paradigm": ["Logic", "Declarative"],
+      "influenced_by": [],
+      "influences": ["Mercury"]
+    },
+    {
+      "name": "Erlang",
+      "year": 1986,
+      "creator": "Joe Armstrong",
+      "paradigm": ["Concurrent", "Functional"],
+      "influenced_by": ["Prolog"],
+      "influences": ["Elixir"]
+    },
+    {
+      "name": "Elixir",
+      "year": 2011,
+      "creator": "José Valim",
+      "paradigm": ["Functional", "Concurrent"],
+      "influenced_by": ["Erlang"],
+      "influences": []
+    },
+    {
+      "name": "Julia",
+      "year": 2012,
+      "creator": "Jeff Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah",
+      "paradigm": ["Functional", "Metaprogramming"],
+      "influenced_by": ["Python", "Lisp"],
+      "influences": []
+    },
+    {
+      "name": "Zig",
+      "year": 2016,
+      "creator": "Andrew Kelley",
+      "paradigm": ["Systems"],
+      "influenced_by": ["C", "Go", "Rust"],
+      "influences": []
+    },
+    {
+      "name": "Objective-C",
+      "year": 1984,
+      "creator": "Brad Cox, Tom Love",
+      "paradigm": ["Object-Oriented"],
+      "influenced_by": ["C"],
+      "influences": ["Swift"]
+    }
+  ]
+}
